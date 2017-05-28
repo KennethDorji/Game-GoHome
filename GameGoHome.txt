@@ -1,0 +1,204 @@
+Kenneth Dorji
+kdorji
+CISC 3110-MY9
+Prof: Dr. Dina Sokol
+Assignment#6 - Game GOHOME!
+April 26, 2017
+
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+ *                                                                                      *
+ *                            Welcome to Game GoHome!                                   *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *             PLAY(P)       RULES(R)     CREDITS(C)        EXIT(E)                     *
+ *                                                                                      *
+ *                                                                                      *
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+
+                                         Rules of Game GoHome!
+
+- The object of this board game is to reach "Home" first which is the last square on the board game.
+- The order of the player's turn depends on their first name. The player with the shortest first name goes first and the player with the longest first name goes last.
+
+- There are 10 cards in the GOHOME!. Two cards with each number from 1-4, one card with "lose a turn" and one with "switch places with another player."
+
+- A turn consists of picking a card. if there is number on the card the player moves forward that number of spaces.
+
+* Condtion 1:-  If the card says "lose a turn" then the player does nothing, and the turn moves to the next player.
+
+* Condition 2:- If the player gets "Switch places" then it must switch position with another player.
+
+* Condition 3:- After the player moves, if the player lands on an obstacle, the player must moves back the number of spaces depending on the landed obstacle which range from 1-3 spaces backwardsIf the player lands on an obstacle after moving backwards, it does not have to move again.
+
+                                                Credits
+Prof. Dina Sokol
+Prof. Chaim Ziegler
+Prof. Yan Chen
+Brooklyn College
+Borough of Manhattan Community College
+
+
+                                      The GOHOME! Game has begun.
+
+The user requested 15 locations for Board Size and 5 obstacles in the board.
+
+Following is the picture of the Game GoHome Board:
+
+0  1  0  -2  0  0  0  1  0  2  0  2  0  1  0  0  
+
+Mia, Sophia, Harper and Charlotte is at the starting position, position 0 of the GoHome! Game.
+
+Turn: 1
+It's Mia turn to pick a card. You're withdrawn card value is 3
+Mia is in 3 position on the board.
+Mia has landed on "Go Again!". You get to pick a card again!
+You're withdrawn card value is 5
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 8 position on the board.
+Sophia is in 0 position on the board.
+Harper is in 0 position on the board.
+Charlotte is in 0 position on the board.
+
+Turn: 2
+It's Sophia turn to pick a card. You're withdrawn card value is 3
+Sophia is in 3 position on the board.
+Sophia has landed on "Go Again!". You get to pick a card again!
+You're withdrawn card value is 2
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 8 position on the board.
+Sophia is in 5 position on the board.
+Harper is in 0 position on the board.
+Charlotte is in 0 position on the board.
+
+Turn: 3
+It's Harper turn to pick a card.Harper You're withdrawn card value is "Switch places with another player" 
+Mia is in 0 position on the board.
+Sophia is in 5 position on the board.
+Harper is in 8 position on the board.
+Charlotte is in 0 position on the board.
+
+Turn: 4
+It's Charlotte turn to pick a card. You're withdrawn card value is 2
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 0 position on the board.
+Sophia is in 5 position on the board.
+Harper is in 8 position on the board.
+Charlotte is in 2 position on the board.
+
+Turn: 5
+It's Mia turn to pick a card. You're withdrawn card value is 3
+Mia is in 3 position on the board.
+Mia has landed on "Go Again!". You get to pick a card again!
+You're withdrawn card value is 4
+OH NO! You've landed on an obstacle. You must now move 1 position back.
+Mia is in 6 position on the board.
+Sophia is in 5 position on the board.
+Harper is in 8 position on the board.
+Charlotte is in 2 position on the board.
+
+Turn: 6
+It's Sophia turn to pick a card. You're withdrawn card value is 2
+OH NO! You've landed on an obstacle. You must now move 1 position back.
+Mia is in 6 position on the board.
+Sophia is in 6 position on the board.
+Harper is in 8 position on the board.
+Charlotte is in 2 position on the board.
+
+Turn: 7
+It's Harper turn to pick a card. You're withdrawn card value is 2
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 6 position on the board.
+Sophia is in 6 position on the board.
+Harper is in 10 position on the board.
+Charlotte is in 2 position on the board.
+
+Turn: 8
+It's Charlotte turn to pick a card. You're withdrawn card value is 3
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 6 position on the board.
+Sophia is in 6 position on the board.
+Harper is in 10 position on the board.
+Charlotte is in 5 position on the board.
+
+Turn: 9
+It's Mia turn to pick a card. You're withdrawn card value is 3
+OH NO! You've landed on an obstacle. You must now move 2 position back.
+Mia is in 7 position on the board.
+Sophia is in 6 position on the board.
+Harper is in 10 position on the board.
+Charlotte is in 5 position on the board.
+
+Turn: 10
+It's Sophia turn to pick a card. You're withdrawn card value is 2
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 7 position on the board.
+Sophia is in 8 position on the board.
+Harper is in 10 position on the board.
+Charlotte is in 5 position on the board.
+
+Turn: 11
+It's Harper turn to pick a card. You're withdrawn card value is 3
+OH NO! You've landed on an obstacle. You must now move 1 position back.
+Mia is in 7 position on the board.
+Sophia is in 8 position on the board.
+Harper is in 12 position on the board.
+Charlotte is in 5 position on the board.
+
+Turn: 12
+It's Charlotte turn to pick a card. You're withdrawn card value is 2
+Charlotte has landed on Mia's location. So Mia has been moved back to the starting position.
+OH NO! You've landed on an obstacle. You must now move 1 position back.
+Mia is in 0 position on the board.
+Sophia is in 8 position on the board.
+Harper is in 12 position on the board.
+Charlotte is in 6 position on the board.
+
+Turn: 13
+It's Mia turn to pick a card. You're withdrawn card value is 2
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 2 position on the board.
+Sophia is in 8 position on the board.
+Harper is in 12 position on the board.
+Charlotte is in 6 position on the board.
+
+Turn: 14
+It's Sophia turn to pick a card. You're withdrawn card value is 1
+OH NO! You've landed on an obstacle. You must now move 2 position back.
+Mia is in 2 position on the board.
+Sophia is in 7 position on the board.
+Harper is in 12 position on the board.
+Charlotte is in 6 position on the board.
+
+Turn: 15
+It's Harper turn to pick a card. You're withdrawn card value is 3
+You are !! SAFE !! You've landed on a non obstacle position.
+Mia is in 2 position on the board.
+Sophia is in 7 position on the board.
+Harper is in 15 position on the board.
+Charlotte is in 6 position on the board.
+
+Harper has reached HOME! ! ! 
+C O N G R A T U L A T I O N !! 
+You've won the game!
+
+
+
+The Game GoHome! Program has ended.
+
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+ *                                                                                      *
+ *                            Welcome to Game GoHome!                                   *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *                                                                                      *
+ *             PLAY(P)       RULES(R)     CREDITS(C)        EXIT(E)                     *
+ *                                                                                      *
+ *                                                                                      *
+ *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  * 
+
+ The user has exited Game GoHome! Program.
